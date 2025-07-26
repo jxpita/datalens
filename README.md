@@ -32,4 +32,14 @@ uvicorn main:app --reload --port 8000
 
 ## Estructura
 
-<pre> ``` datalens/ ├── main.py ├── templates/ │ └── index.html ├── static/ │ ├── style.css │ └── app.js └── README.md ``` </pre>
+## Estructura
+```
+datalens/
+├── main.py
+├── templates/
+│   └── index.html
+├── static/
+│   ├── style.css
+│   └── app.js
+└── README.md
+```
