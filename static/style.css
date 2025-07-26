@@ -1,0 +1,57 @@
+body {
+  background: #f5f7fb;
+  color: #1f2937;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  backdrop-filter: blur(6px);
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+#loader .spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+table.dataTable > thead > tr > th {
+  white-space: nowrap;
+}
+
+/* --- Upload Section --- */
+.upload-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.file-input-wrapper {
+  max-width: 250px;
+}
+
+.file-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.file-list .file-item {
+  background: #e9f1ff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.file-list .file-item i {
+  color: #007bff;
+}
